@@ -1,0 +1,3493 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
+body {
+  background-color: #FBFCFA;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5% 40% 0 auto 5%;
+  grid-row-gap: 10px;
+}
+
+.grid-container>div {
+  font-size: 20px;
+
+  background-color: #f7efe9;
+}
+
+/* header */
+
+#navbar {
+  grid-column: 2/5;
+  float: right;
+  text-align: center;
+  display: inline;
+  background-color: #e3bba2;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  vertical-align: middle;
+}
+
+#navbar ul {
+  font-family: 'Alegreya Sans SC';
+  font-size: 20pt;
+  letter-spacing: 1pt;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+
+
+}
+
+#navbar li {
+  float: right;
+
+}
+
+#navbar li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  /* background-color: #f6c9b2; */
+  opacity: 0.7;
+  color: #a95a55;
+  text-decoration: underline;
+  border-radius: 10px;
+
+}
+
+hr {
+  border: 1px solid black;
+  width: 95%;
+
+}
+
+/* main */
+
+#main {
+  grid-column: 2/ span 1;
+  display: inline;
+  width: auto;
+  display: inline;
+
+  background-color: #f7efe9;
+}
+
+#des_main {
+  grid-column: 4;
+  background-color: #f7efe9;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+#des_main h1, p {
+  font-family: 'Alegreya Sans SC';
+}
+
+#des_main h2 {
+  font-size: 30pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#photoMe {
+  border-radius: 50%;
+  justify-content: center;
+  max-width: 65%;
+  padding-right: 20%;
+  padding-top: 5%;
+  margin-left: 20%;
+  padding-bottom: 5%;
+  /* filter: drop-shadow(.2rem .3rem 1rem rgb(0, 0, 0)) */
+  /* drop-shadow(0 0 1rem rgb(0, 0, 0)); */
+
+}
+
+
+h1 {
+  text-indent: 3.0em;
+  letter-spacing: 5px;
+}
+
+#message {
+  text-align: center;
+  margin-left: 5%;
+}
+
+#message p {
+  text-indent: 1.5em;
+  line-height: 2.2;
+  width: auto;
+}
+
+#button {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #786e6a;
+  border: none;
+  color: #f7efe9;
+  font-size: 20px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  vertical-align: middle
+}
+
+.button a {
+  color: #f7efe9;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #c7a48b;
+  color: #786e6a;
+  border: 0;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #786e6a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  vertical-align: middle
+}
+
+.button2 a {
+  color: #f7efe9;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #c7a48b;
+  color: #786e6a;
+  border: 0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* skill */
+
+.grid-containerskill {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  grid-gap: 10px;
+  margin-top: 20px;
+
+}
+
+.grid-container>div {
+  /* border: 0.5px solid black; */
+  font-size: 20px;
+  background-color: white;
+
+}
+
+#Skill {
+  grid-column: 2 / span 1;
+  background-color: #f7efe9;
+  /* box-shadow: 0px 0px 10px 1px #888888; */
+  /* justify-content: center; */
+}
+
+#Skill li {
+  list-style-type: none;
+  font-size: 16pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#imgskill {
+  height: 75px;
+}
+
+#skillHead {
+  grid-column: 1 / span 1;
+  display: block;
+  padding-top: 10px;
+  padding-right: 500px;
+  transform: rotate(-90deg);
+  position: relative;
+  white-space: nowrap;
+  font-size: 50px;
+  color: #786e6a;
+  font-family: 'Alegreya Sans SC';
+  letter-spacing: 20px;
+}
+
+
+#Skill h2 {
+  font-size: 24pt;
+  text-align: center;
+  font-family: 'Alegreya Sans SC';
+}
+
+#Skill:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+.grid-hobby {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  grid-gap: 10px;
+  margin-top: 15px;
+
+}
+
+#hobby {
+  grid-column: 3 / span 1;
+  background-color: #f7efe9;
+  /* box-shadow: 0px 0px 10px 1px #888888; */
+  /* text-align: center; */
+  justify-content: center;
+}
+
+#hobby li {
+  list-style-type: none;
+  font-size: 16pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#hobby h2 {
+  text-align: center;
+  font-size: 22pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#hobby:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+#Interests {
+  grid-column: 4 / span 1;
+  background-color: #f7efe9;
+  /* box-shadow: 0px 0px 10px 1px #888888; */
+
+  justify-content: center;
+}
+
+
+#Interests h2 {
+  text-align: center;
+  font-size: 22pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#Interests li {
+  list-style-type: none;
+  font-size: 16pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#Interests h2 {
+  text-align: center;
+  font-size: 22pt;
+}
+
+#Interests:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
+#ContentHead {
+  grid-column: 4 / span 1;
+  display: block;
+  transform: rotate(90deg);
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 50px;
+  color: #786e6a;
+  font-family: 'Alegreya Sans SC';
+  letter-spacing: 20px;
+  height: 10px;
+
+}
+
+#contact {
+  grid-column: 2/5;
+  background-color: #f7efe9;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 22pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#contact h5 {
+  font-size: 14pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+#contact a {
+  font-size: 14pt;
+  color: #1F3044;
+  font-family: 'Alegreya Sans SC';
+}
+
+.con-pic {
+  width: 25px;
+}
+
+.link-pic {
+  width: 25px;
+}
+
+.grid-education {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.education {
+  grid-column: 2;
+  color: #a6775d;
+  font-family: 'Alegreya Sans SC';
+  font-size: 14pt;
+  letter-spacing: 1pt;
+  border: 0;
+
+  padding-top: 20%;
+  letter-spacing: 5px;
+  font-size: 35pt;
+
+}
+
+.timeline {
+  grid-column: 3;
+  border-left: 4px solid #1F3044;
+  font-family: 'Alegreya Sans SC';
+  font-size: 14pt;
+  letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% auto auto auto 4%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/5;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 20pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+
+  }
+
+  /* main */
+
+  #main {
+    grid-column: 2 / 5;
+    display: inline;
+    width: auto;
+    display: inline;
+
+    background-color: #f7efe9;
+  }
+
+  #des_main {
+    grid-column: 2 / 5;
+    background-color: #f7efe9;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  #des_main h1, p {
+    font-family: 'Alegreya Sans SC';
+
+  }
+
+  #des_main h2 {
+    font-size: 30pt;
+    font-family: 'Alegreya Sans SC';
+    padding-left: 50px;
+  }
+
+  #photoMe {
+    border-radius: 50%;
+    justify-content: center;
+    max-width: 65%;
+    padding-right: 20%;
+    padding-top: 5%;
+    margin-left: 20%;
+    padding-bottom: 5%;
+    /* filter: drop-shadow(.2rem .3rem 1rem rgb(0, 0, 0)) */
+    /* drop-shadow(0 0 1rem rgb(0, 0, 0)); */
+
+  }
+
+
+  h1 {
+    text-indent: 3.0em;
+    letter-spacing: 5px;
+  }
+
+  #message {
+    text-align: center;
+    width: auto;
+  }
+
+  #message p {
+    text-indent: 1.5em;
+    line-height: 2.2;
+    width: auto;
+  }
+
+  #button {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #f7efe9;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    vertical-align: middle
+  }
+
+  .button a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button2 {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    vertical-align: middle
+  }
+
+  .button2 a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button2:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button2:hover span {
+    padding-right: 25px;
+  }
+
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* skill */
+
+  .grid-containerskill {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+    background-color: white;
+
+  }
+
+  #Skill {
+    grid-column: 2 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* justify-content: center; */
+  }
+
+  #Skill li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #imgskill {
+    height: 75px;
+  }
+
+  #skillHead {
+    grid-column: 1 / span 1;
+    display: block;
+    padding-top: 10px;
+    padding-right: 500px;
+    transform: rotate(-90deg);
+    position: relative;
+    white-space: nowrap;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+  }
+
+
+  #Skill h2 {
+    font-size: 24pt;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Skill:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  .grid-hobby {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    grid-gap: 10px;
+    margin-top: 15px;
+
+  }
+
+  #hobby {
+    grid-column: 3 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  #hobby li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby h2 {
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #Interests {
+    grid-column: 4 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+
+    justify-content: center;
+  }
+
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 22pt;
+  }
+
+  #Interests:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+
+  }
+
+  #contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+
+  .grid-headproject {
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .project {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .grid-education {
+    display: grid;
+    grid-template-columns: 10% auto 5% auto 10%;
+  }
+
+  .education {
+    grid-column: 2;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    padding-top: 40%;
+    letter-spacing: 1pt;
+    border: 0;
+  }
+
+  .education p {
+    letter-spacing: 5px;
+    font-size: 35pt;
+  }
+
+  .timeline {
+    grid-column: 4;
+    border-left: 4px solid #1F3044;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3% auto auto auto 3%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/ span 3;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+
+  }
+
+  /* main */
+
+  #main {
+    grid-column: 2/ span 3;
+    display: inline;
+    width: auto;
+    display: inline;
+
+    background-color: #f7efe9;
+  }
+
+  #des_main {
+    grid-column: 2/ span 3;
+    background-color: #f7efe9;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  #des_main h1, p {
+    font-family: 'Alegreya Sans SC';
+
+  }
+
+  #des_main h2 {
+    font-size: 24pt;
+    font-family: 'Alegreya Sans SC';
+    padding-left: 50px;
+  }
+
+  #photoMe {
+    border-radius: 50%;
+    justify-content: center;
+    max-width: 65%;
+    padding-right: 20%;
+    padding-top: 5%;
+    margin-left: 20%;
+    padding-bottom: 5%;
+    /* filter: drop-shadow(.2rem .3rem 1rem rgb(0, 0, 0)) */
+    /* drop-shadow(0 0 1rem rgb(0, 0, 0)); */
+
+  }
+
+
+  h1 {
+    text-indent: 3.0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+  #message {
+    text-align: center;
+    width: auto;
+  }
+
+  #message p {
+    text-indent: 1.5em;
+    line-height: 2.2;
+    width: auto;
+    font-size: 13pt;
+  }
+
+  #button {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #f7efe9;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    vertical-align: middle
+  }
+
+  .button a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button2 {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    vertical-align: middle
+  }
+
+  .button2 a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button2:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button2:hover span {
+    padding-right: 25px;
+  }
+
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* skill */
+
+  .grid-containerskill {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+    background-color: white;
+
+  }
+
+  #Skill {
+    grid-column: 3 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* justify-content: center; */
+  }
+
+  #Skill li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Skill ul {
+    padding: 10;
+  }
+
+  #imgskill {
+    height: 75px;
+  }
+
+  #skillHead {
+    grid-column: 1 / span 1;
+    display: block;
+    padding-top: 10px;
+    padding-right: 500px;
+    transform: rotate(-90deg);
+    position: relative;
+    white-space: nowrap;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+  }
+
+
+  #Skill h2 {
+    font-size: 24pt;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Skill:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  .grid-hobby {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    grid-gap: 10px;
+    margin-top: 15px;
+
+  }
+
+  #hobby {
+    grid-column: 3 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  #hobby li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby h2 {
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #Interests {
+    grid-column: 3 / span 1;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+
+    justify-content: center;
+  }
+
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests li {
+    list-style-type: none;
+    font-size: 16pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 22pt;
+  }
+
+  #Interests:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+
+  }
+
+  #contact {
+    grid-column: 2/ span 3;
+    background-color: #f7efe9;
+    text-align: center;
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+
+  .grid-headproject {
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .project {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .grid-education {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .education {
+    grid-column: 3;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    border: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .education p {
+    letter-spacing: 5px;
+    font-size: 35pt;
+  }
+
+  .timeline {
+    grid-column: 3;
+    border-left: 4px solid #1F3044;
+    font-family: 'Alegreya Sans SC';
+    font-size: 12pt;
+    letter-spacing: 0.5px;
+  }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3% auto auto auto 3%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 1 / 6;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+
+  }
+
+  /* main */
+
+  #main {
+    grid-column: 1/ span 5;
+    display: inline;
+    width: auto;
+    display: inline;
+
+    background-color: #f7efe9;
+  }
+
+  #des_main {
+    grid-column: 1/ span 5;
+    background-color: #f7efe9;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  #des_main h1, p {
+    text-indent: 25px;
+    font-family: 'Alegreya Sans SC';
+
+  }
+
+  #des_main h2 {
+    font-size: 24pt;
+    font-family: 'Alegreya Sans SC';
+    padding-left: 20px;
+  }
+
+  #photoMe {
+    border-radius: 50%;
+    justify-content: center;
+    max-width: 65%;
+    padding-right: 20%;
+    padding-top: 5%;
+    margin-left: 20%;
+    padding-bottom: 5%;
+    /* filter: drop-shadow(.2rem .3rem 1rem rgb(0, 0, 0)) */
+    /* drop-shadow(0 0 1rem rgb(0, 0, 0)); */
+
+  }
+
+
+  h1 {
+    text-indent: 3.0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+  #message {
+    text-align: center;
+    width: auto;
+    padding-right: 50px;
+  }
+
+  #message p {
+    text-indent: 1.5em;
+    line-height: 2.2;
+    width: auto;
+    font-size: 13pt;
+  }
+
+  #button {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #f7efe9;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    vertical-align: middle
+  }
+
+  .button a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button2 {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #786e6a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    vertical-align: middle
+  }
+
+  .button2 a {
+    color: #f7efe9;
+    text-decoration: none;
+  }
+
+  .button2:hover {
+    background-color: #c7a48b;
+    color: #786e6a;
+    border: 0;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button2:hover span {
+    padding-right: 25px;
+  }
+
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* skill */
+
+  .grid-containerskill {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+    background-color: white;
+
+  }
+
+  #Skill {
+    grid-column: 2 / span 3;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* justify-content: center; */
+  }
+
+  #Skill li {
+    list-style-type: none;
+    font-size: 13pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Skill ul {
+    padding: 10;
+  }
+
+  #imgskill {
+    height: 75px;
+  }
+
+  #skillHead {
+    grid-column: 1 / span 1;
+    display: block;
+    padding-top: 10px;
+    padding-right: 500px;
+    transform: rotate(-90deg);
+    position: relative;
+    white-space: nowrap;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+  }
+
+
+  #Skill h2 {
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Skill:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  .grid-hobby {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+    grid-gap: 10px;
+    margin-top: 15px;
+
+  }
+
+  #hobby {
+    grid-column: 2 / span 3;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  #hobby li {
+    list-style-type: none;
+    font-size: 13pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby h2 {
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #hobby:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #Interests {
+    grid-column: 2 / span 3;
+    background-color: #f7efe9;
+    /* box-shadow: 0px 0px 10px 1px #888888; */
+
+    justify-content: center;
+  }
+
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests li {
+    list-style-type: none;
+    font-size: 13pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #Interests h2 {
+    text-align: center;
+    font-size: 22pt;
+  }
+
+  #Interests:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+  }
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+
+  }
+
+  #contact {
+    grid-column: 1/ 6;
+    background-color: #f7efe9;
+    text-align: center;
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #contact a {
+    font-size: 12pt;
+    color: #1F3044;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+
+  .grid-headproject {
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .project {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .grid-education {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .education {
+    grid-column: 3;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    border: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .education p {
+    letter-spacing: 5px;
+    font-size: 35pt;
+    margin: 0;
+  }
+
+  .timeline {
+    grid-column: 3;
+    border-left: 4px solid #1F3044;
+    font-family: 'Alegreya Sans SC';
+    font-size: 12pt;
+    letter-spacing: 0.5px;
+  }
+
+}
+
+/* ___________________________________________________________________________RESUME____________________________________________________________________________________ */
+.grid-resume {
+  margin-top: 5%;
+  grid-template-columns: 5% 30% auto auto 5%;
+  grid-gap: 20px;
+  display: grid;
+}
+
+#PhotoMee {
+  grid-column: 2 / span 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#PhotoMee img {
+  width: 65%;
+  border-radius: 20px;
+}
+
+#namesurname {
+  grid-column: 3;
+}
+
+#namesurname h1 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 45pt;
+  line-height: 0.5em;
+  letter-spacing: 10px;
+  text-indent: 0;
+}
+
+#namesurname h2 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+hr {
+  width: 70px;
+  line-height: 0.5em;
+  float: left;
+  border: 2px solid #1F3044;
+}
+
+#Edu {
+  grid-column: 2;
+  background-color: #fbede0;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+
+#Edu h2 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+#Edu h4 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 16pt;
+
+}
+
+#Edu p {
+  font-family: 'Alegreya Sans SC';
+  font-size: 14pt;
+
+}
+
+#skills {
+  grid-column: 3 / span 2;
+  background-color: #fbede0;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+
+#skills h2 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+#skills th {
+  width: 20%;
+  padding-bottom: 5%;
+}
+
+#skills td {
+  font-size: 15pt;
+  width: 20%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC';
+  padding-bottom: 5%;
+
+}
+
+#skillsimg {
+  width: 70px;
+}
+
+#contactme {
+  grid-column: 2;
+  background-color: #fbede0;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+
+#contactme h2 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+#contactme h3 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 15pt;
+  line-height: 2em;
+}
+
+#contactmeimg {
+  width: 30px;
+}
+
+#experience {
+  grid-column: 3 / span 2;
+  background-color: #fbede0;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+
+#experience h2 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 25pt;
+  letter-spacing: 10px;
+}
+
+#experience h4 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 16pt;
+}
+
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .grid-resume {
+
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-gap: 20px;
+    display: grid;
+  }
+
+  #PhotoMee {
+    grid-column: 2 / span 1;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #PhotoMee img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #namesurname {
+    grid-column: 3 / span 2;
+    padding-top: 45px;
+    padding-left: 20px;
+  }
+
+  #namesurname h1 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 36pt;
+    line-height: 0.5em;
+    letter-spacing: 10px;
+    text-indent: 0;
+  }
+
+  #namesurname h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+  }
+
+  hr {
+    width: 70px;
+    line-height: 0.5em;
+    float: left;
+    border: 2px solid #1F3044;
+  }
+
+  #Edu {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+  }
+
+  #Edu h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+  }
+
+  #Edu h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+
+  }
+
+  #Edu p {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+
+  }
+
+  #skills {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+  }
+
+  #skills h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+  }
+
+  #skills th {
+    width: 20%;
+    padding-bottom: 5%;
+  }
+
+  #skills td {
+    font-size: 15pt;
+    width: 20%;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    padding-bottom: 5%;
+
+  }
+
+  #skillsimg {
+    width: 70px;
+  }
+
+  #contactme {
+    grid-column: 2;
+    background-color: #fbede0;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  #contactme h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+    letter-spacing: 10px;
+  }
+
+  #contactme h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 13pt;
+    line-height: 2em;
+  }
+
+  #contactmeimg {
+    width: 30px;
+  }
+
+  #experience {
+    grid-column: 3 / span 2;
+    background-color: #fbede0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  #experience h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+    letter-spacing: 10px;
+  }
+
+  #experience h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+  }
+}
+
+
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 500px) {
+  .grid-resume {
+
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-gap: 20px;
+    display: grid;
+  }
+
+  #PhotoMee {
+    grid-column: 2 / span 3;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #PhotoMee img {
+    width: 80%;
+    border-radius: 20px;
+  }
+
+  #namesurname {
+    grid-column: 2 / span 2;
+    padding-top: 45px;
+    padding-left: 50px;
+  }
+
+  #namesurname h1 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 28pt;
+    line-height: 0.5em;
+    letter-spacing: 10px;
+  }
+
+  #namesurname h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 18pt;
+    letter-spacing: 10px;
+  }
+
+  hr {
+    width: 70px;
+    line-height: 0.5em;
+    float: left;
+    border: 2px solid #1F3044;
+  }
+
+  #Edu {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+  }
+
+  #Edu h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+  }
+
+  #Edu h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+
+  }
+
+  #Edu p {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+
+  }
+
+  #skills {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+  }
+
+  #skills h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+  }
+
+  #skills th {
+    width: 20%;
+    padding-bottom: 5%;
+  }
+
+  #skills td {
+    font-size: 10pt;
+    width: 20%;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    padding-bottom: 5%;
+
+  }
+
+  #skillsimg {
+    width: 40px;
+  }
+
+  #contactme {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  #contactme h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+    letter-spacing: 10px;
+  }
+
+  #contactme h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    line-height: 2em;
+  }
+
+  #contactmeimg {
+    width: 25px;
+  }
+
+  #experience {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  #experience h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+    letter-spacing: 10px;
+  }
+
+  #experience h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+  }
+}
+
+/* ___________________________________________________________________________WORK____________________________________________________________________________________ */
+
+
+
+
+
+.grid-incontain {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  text-align: center;
+
+
+}
+
+.grid-asmm {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.Assigment {
+  grid-column: 1;
+  text-align: center;
+  color: #a6775d;
+  font-family: 'Alegreya Sans SC';
+  font-size: 14pt;
+  letter-spacing: 1pt;
+  width: 40%;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 0;
+}
+
+.Assigment h1 {
+  text-indent: 0em;
+  letter-spacing: 5px;
+}
+
+.grid-assign {
+
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  text-align: center;
+}
+
+button.asm1 {
+  grid-column: 2;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+
+}
+
+button.asm2 {
+  grid-column: 3;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  text-align: center;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+}
+
+button.asm3 {
+  grid-column: 2;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+}
+
+button.asm4 {
+  grid-column: 3;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+}
+
+button.processing1 {
+  grid-column: 2;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+}
+
+button.processing2 {
+  grid-column: 3;
+  background-color: white;
+  border: 0;
+  box-shadow: 0px 0px 10px 1px #b0b0b0;
+  /* font-size: 16pt;
+  letter-spacing: 1pt; */
+}
+
+#workimg {
+  width: 350px;
+}
+
+h3 {
+  font-family: 'Alegreya Sans SC';
+}
+
+#ContentHead {
+  grid-column: 4 / span 1;
+  display: block;
+  transform: rotate(90deg);
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 50px;
+  color: #786e6a;
+  font-family: 'Alegreya Sans SC';
+  letter-spacing: 20px;
+  height: 10px;
+  text-align: center;
+  padding-left: 100%;
+}
+
+#contact {
+  grid-column: 2/5;
+  background-color: #f7efe9;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+#contact h2 {
+  font-size: 22pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+.con-pic {
+  width: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/5;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 20pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+  }
+
+  /* contentwork */
+
+
+
+  .grid-incontain {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-gap: 20px;
+    text-align: center;
+
+
+  }
+
+  .grid-asmm {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+  .Assigment {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    border: 0;
+  }
+
+  .Assigment h1 {
+    text-indent: 0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+
+  button.asm2 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    text-align: center;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.asm3 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.asm4 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.processing1 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+
+  button.processing2 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  #workimg {
+    width: 250px;
+  }
+
+  h3 {
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+    text-align: center;
+    padding-left: 100%;
+  }
+
+  #contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+}
+
+/* ___________________________________________________________________________ */
+
+@media only screen and (max-width: 500px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/5;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+  }
+
+  /* contentwork */
+
+
+
+  .grid-incontain {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    text-align: center;
+
+
+  }
+
+  .grid-asmm {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+  .Assigment {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    width: 60%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .Assigment h1 {
+    text-indent: 0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+  /* 
+  .grid-assign {
+
+      display: grid;
+      grid-column: 3;
+      grid-template-rows: auto auto;
+      grid-row-gap: 20px;
+      grid-column-gap: 20px;
+      text-align: center;
+  } */
+
+  button.port {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.asm1 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+
+  }
+
+  button.asm2 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    text-align: center;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.asm3 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.asm4 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  button.processing1 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+
+  button.processing2 {
+    grid-column: 2;
+    padding: 20%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+      letter-spacing: 1pt; */
+  }
+
+  #workimg {
+    width: 250px;
+  }
+
+  h3 {
+    font-family: 'Alegreya Sans SC';
+  }
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+    text-align: center;
+    padding-left: 100%;
+  }
+
+  #contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+}
+
+/* ___________________________________________________________________________PROJECT____________________________________________________________________________________ */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
+body {
+  background-color: #FBFCFA;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5% 40% 0 auto 5%;
+  grid-row-gap: 10px;
+}
+
+.grid-container>div {
+  font-size: 20px;
+
+  background-color: #f7efe9;
+}
+
+/* header */
+
+#navbar {
+  grid-column: 2/5;
+  float: right;
+  text-align: center;
+  display: inline;
+  background-color: #e3bba2;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  vertical-align: middle;
+}
+
+#navbar ul {
+  font-family: 'Alegreya Sans SC';
+  font-size: 20pt;
+  letter-spacing: 1pt;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+
+
+}
+
+#navbar li {
+  float: right;
+
+}
+
+#navbar li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  /* background-color: #f6c9b2; */
+  opacity: 0.7;
+  color: #a95a55;
+  text-decoration: underline;
+  border-radius: 10px;
+
+}
+
+hr {
+  border: 1px solid black;
+  width: 6%;
+  border: 2px solid #1F3044;
+
+}
+
+
+.grid-headproject {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.project {
+  grid-column: 1;
+  text-align: center;
+  color: #a6775d;
+  font-family: 'Alegreya Sans SC';
+  font-size: 14pt;
+  letter-spacing: 1pt;
+  width: 40%;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: 0;
+}
+
+.project h1 {
+  text-indent: 0em;
+  letter-spacing: 5px;
+}
+
+.templeteproject {
+  display: grid;
+  grid-template-columns: 10% auto 5% auto 10%;
+}
+
+.application {
+  grid-column: 2;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px #acacac;
+  transform: scale(1.01);
+  padding: 10px;
+}
+
+/* .application:hover {
+    transform: scale(1.05);
+} */
+
+.application h3 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 16pt;
+}
+
+#imgProject {
+  width: 318px;
+}
+
+.nsc {
+  grid-column: 4/5;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px #acacac;
+  transform: scale(1.01);
+  text-align: center;
+  padding: 10px;
+}
+
+.nsc h3 {
+  font-family: 'Alegreya Sans SC';
+  font-size: 16pt;
+}
+
+#imgnsc {
+  grid-column: 4 / span 1;
+  width: 250px;
+}
+
+
+#ContentHead {
+  grid-column: 4 / span 1;
+  display: block;
+  transform: rotate(90deg);
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 50px;
+  color: #786e6a;
+  font-family: 'Alegreya Sans SC';
+  letter-spacing: 20px;
+  height: 10px;
+
+}
+
+#contact {
+  grid-column: 2/5;
+  background-color: #f7efe9;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+#contact h2 {
+  font-size: 22pt;
+  font-family: 'Alegreya Sans SC';
+}
+
+.con-pic {
+  width: 25px;
+}
+
+.link-pic {
+  width: 25px;
+}
+
+/* ___________________________________________________________________________ */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% 40% 0 auto 5%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/5;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 20pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+
+  }
+
+  .grid-headproject {
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .project {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .project h1 {
+    text-indent: 0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+  .templeteproject {
+    display: grid;
+    grid-template-columns: 7% auto 2% auto 7%;
+  }
+
+  .application {
+    grid-column: 2;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    padding: 10px;
+  }
+
+  /* .application:hover {
+        transform: scale(1.05);
+    } */
+
+  .application h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+  }
+
+  #imgProject {
+    width: 280px;
+  }
+
+  .nsc {
+    grid-column: 4/5;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nsc h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+  }
+
+  #imgnsc {
+    grid-column: 4 / span 1;
+    width: 222px;
+  }
+
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+
+  }
+
+  #contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+}
+
+/* ___________________________________________________________________________ */
+@media only screen and (max-width: 500px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 5% auto auto auto 5%;
+    grid-row-gap: 10px;
+  }
+
+  .grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+
+    background-color: #f7efe9;
+  }
+
+  /* header */
+
+  #navbar {
+    grid-column: 2/5;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 11pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 0;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 95%;
+
+  }
+
+
+
+  .grid-headproject {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+  .project {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 60%;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+  }
+
+  .project h1 {
+    text-indent: 0em;
+    letter-spacing: 5px;
+    font-size: 25pt;
+  }
+
+  .templeteproject {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+  }
+
+  .application {
+    grid-column: 3 / span 1;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    padding: 10px;
+  }
+
+  /* .application:hover {
+        transform: scale(1.05);
+    } */
+
+  .application h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+  }
+
+  #imgProject {
+    width: 280px;
+  }
+
+  .nsc {
+    grid-column: 3/ span 1;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nsc h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+  }
+
+  #imgnsc {
+    grid-column: 4 / span 1;
+    width: 222px;
+  }
+
+
+
+
+  #ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+
+  }
+
+  #contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 390px) {
+  #contact {
+    grid-column: 1/6;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  #contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .con-pic {
+    width: 25px;
+  }
+
+  .link-pic {
+    width: 25px;
+  }
+
+  #navbar {
+    grid-column: 1/6;
+    float: right;
+    text-align: center;
+    display: inline;
+    background-color: #e3bba2;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+
+  #navbar ul {
+    font-family: 'Alegreya Sans SC';
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+
+
+  }
+
+  #navbar li {
+    float: right;
+
+  }
+
+  #navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar li a:hover {
+    /* background-color: #f6c9b2; */
+    opacity: 0.7;
+    color: #a95a55;
+    text-decoration: underline;
+    border-radius: 10px;
+  }
+
+  .Assigment h1 {
+    text-indent: 0em;
+    letter-spacing: 5px;
+    font-size: 18pt;
+  }
+
+  #Edu h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 18pt;
+    letter-spacing: 10px;
+  }
+
+  #Edu {
+    grid-column: 2 / span 3;
+    background-color: #fbede0;
+    padding-left: 28px;
+    border-radius: 30px;
+  }
+
+  #Edu h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+  }
+
+  #Edu p {
+    font-family: 'Alegreya Sans SC';
+    font-size: 11pt;
+  }
+
+  #skills h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 18pt;
+    letter-spacing: 10px;
+  }
+
+  button.processing2 {
+    grid-column: 2;
+    padding: 6%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+  }
+}
+
